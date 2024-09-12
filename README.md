@@ -25,7 +25,7 @@ This project will guide you through setting up a personal website using Amazon S
 1. Go to the [AWS Certificate Manager (ACM) console](https://console.aws.amazon.com/acm/home).
 2. Click **Request a certificate**.
 3. Choose **Request a public certificate** and click **Next**.
-4. Enter your custom domain name (e.g., `example.com` and `www.example.com`).
+4. Enter your custom domain name (e.g., `mysite.com` and `www.mysite.com`).
 5. Choose **DNS validation** and click **Next**.
 6. Review the request and click **Confirm and request**.
 7. ACM will provide DNS records that need to be added to Route 53. Go back to the [Amazon Route 53 console](https://console.aws.amazon.com/route53/) and add the provided CNAME records to your hosted zone.
